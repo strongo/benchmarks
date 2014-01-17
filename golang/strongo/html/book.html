@@ -1,0 +1,10 @@
+@param book Book
+<div>
+	<h3><a href="/book/{{ book.id }}">{{ book.title }}</a></h3>
+	<div>
+		<b>{{ _('Price') }}</b>: {{ book.price }}
+	</div>
+	<div>
+		{{ _('Brief') }}: {{ book.brief|linebreaks }}
+	</div>
+</div>

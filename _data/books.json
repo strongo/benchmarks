@@ -1,0 +1,6 @@
+{
+1:{Name:'Book #1', AuthorIds:[2]},
+2:{Name:'Book #2', AuthorIds:[1]},
+3:{Name:'Book #3', AuthorIds:[1,3]}
+4:{Name:'Book #4', AuthorIds:[1,3]}
+}

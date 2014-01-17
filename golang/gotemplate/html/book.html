@@ -1,0 +1,9 @@
+<div>
+	<h3><a href="/book/{{ .id }}">{{ k.title }}</a></h3>
+	<div>
+		<b>{{ _('Price') }}</b>: {{ .price }}
+	</div>
+	<div>
+		{{ _('Brief') }}: {{ .brief|linebreaks }}
+	</div>
+</div>
