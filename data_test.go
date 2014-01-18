@@ -1,4 +1,4 @@
-package tests
+package benchmarks_test
 
 import (
 	"bitbucket.com/djingo"

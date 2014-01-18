@@ -1,12 +1,19 @@
 package gotemplate
 
 import (
-	"fmt"
+	//"os"
+	"github.com/strongo/benchmarks"
 	"testing"
+	"text/template"
 )
 
-func BenchmarkStrongo(b *testing.B) {
+func BenchmarkGoTemplateSimple(b *testing.B) {
+
+	t, _ := template.New("simple").Parse("Hello, {{.}}!")
+
+	wr := new(benchmarks.DevNullWriter)
+
     for i := 0; i < b.N; i++ {
-        fmt.Sprintf("hello")
+		t.ExecuteTemplate(wr, "simple", "stranger")
     }
 }
