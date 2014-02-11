@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>@RenderSection("HeadTitle")</title>
+        <style>body{font-family: Verdana; font-size: small;}</style>
+    </head>
+    <body>
+        <h1>@RenderSection("H1")</h1>
+        <hr/>
+        @RenderBody()
+        <hr/>
+        <footer>
+            Test footer
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+﻿@model Mvc4.Razor2.Models.AuthorModel
+
+@{
+    ViewBag.Title = "AuthorModel";
+    Layout = "~/Views/Base.cshtml";
+}
+
+@section H1{
+    AuthorModel: @Model.FirstName @Model.LastName
+}
+@section HeadTitle{
+    @Model.FirstName @Model.LastName - AuthorModel 
+}
+
+<div>
+    @Model.Tagline
+</div>
+<div>
+    @Model.About
+</div>
+<section>
+    <header><h2>Books</h2></header>
+    <ul>
+    @foreach (var book in Model.Books)
+    {
+        <li><a href="/book?id=@book.Id">@book.Title</a></li>
+    }
+    </ul>
+</section>
