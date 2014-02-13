@@ -21,9 +21,10 @@
 <section>
     <header><h2>Books</h2></header>
     <ul>
-    @foreach (var book in Model.Books)
-    {
-        <li><a href="/book?id=@book.Id">@book.Title</a></li>
-    }
+        @foreach (var book in Model.Books)
+        {
+            @Html.Partial("~/Views/Books/BookListCard.cshtml", book);
+        }
     </ul>
+
 </section>

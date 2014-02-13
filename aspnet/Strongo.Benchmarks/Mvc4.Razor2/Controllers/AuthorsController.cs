@@ -34,7 +34,7 @@ namespace Mvc4.Razor2.Controllers
                 Books = new List<Book>()
             };
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 1; i <= 1000; i++)
             {
                 TestAuthor.Books.Add(new Book()
                 {

@@ -25,3 +25,5 @@ C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.
 C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor2\obj\Debug\Mvc4.Razor2.csprojResolveAssemblyReference.cache
 C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor2\obj\Debug\Mvc4.Razor2.dll
 C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor2\obj\Debug\Mvc4.Razor2.pdb
+C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor2\bin\RazorGenerator.Mvc.dll
+C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor2\bin\WebActivatorEx.dll
