@@ -1,4 +1,4 @@
 benchmarks
 ==========
 
-Performance comparition tests of various template engines
+Performance comparison tests of various template engines

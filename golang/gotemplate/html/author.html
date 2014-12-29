@@ -1,9 +1,16 @@
-@param author Author
+{%
+	import (
+		"some/package"
+	)
+	args (
+		author Author
+	)
+%}
 <div>
 	<h2><a href="/author/{{ author.Id }}">{{ author.Title }}</a></h2>
 	<ul>
 	{% for book in author.Books %}
 		{{ include('book.html', book=book) }}
-	{% endfor }
+	{% endfor %}
 	</ul>
 </div>
