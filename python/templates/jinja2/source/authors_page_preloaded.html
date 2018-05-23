@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+
+{% block title %}Top authors with top books{% endblock %}
+
+{% block h1 %}Top authors with top books{% endblock %}
+
+{% block content %}
+	<ul>
+		{% for author in authors %}
+			{% include "inc_author_li.html" %}
+		{% endfor %}
+	</ul>
+{% endblock content %}

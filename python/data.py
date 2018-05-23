@@ -1,3 +1,4 @@
+from datetime import datetime
 
 class Author(object):
     __slots__ = 'id', 'first_name', 'last_name', 'top_book_ids', 'top_books'
@@ -22,7 +23,7 @@ class Book(object):
         self.author_id = kwargs.get('author_id')
 
 authors = [
-    Author(1, first_name='Arthur', last_name='Clark', top_book_ids=[1,]),
+    Author(1, first_name='Arthur', last_name='Clark', top_book_ids=[1,2,3]),
 ]
 
 authors = {
@@ -31,8 +32,18 @@ authors = {
 
 books = [
     Book(1, 'Back to starts', author_id=1),
+    Book(2, 'Back to starts #2', author_id=1),
+    Book(3, 'Back to starts #3', author_id=1),
 ]
 
 books = {
     book.id: book for book in books
 }
+
+class User(object):
+    def __init__(self, Id):
+        self.Id = Id
+        self.Name = "User #%s" % Id
+        self.DateOfBirth = datetime.now()
+
+users = [User(i+1) for i in xrange(100)]

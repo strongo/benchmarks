@@ -1,5 +1,5 @@
 import time
-from data import authors, books
+from data import authors as _authors, books as _books
 
 
 class DataProvider(object):
@@ -11,7 +11,7 @@ class DataProvider(object):
     def get_authors(self):
         if self.delay_in_seconds:
             time.sleep(self.delay_in_seconds)
-        return authors.values()
+        return _authors.values()
 
     def get_books_by_id(self, book_ids):
         if self.delay_in_seconds:
@@ -21,5 +21,12 @@ class DataProvider(object):
     def get_book_by_id(self, book_id):
         if self.delay_in_seconds:
             time.sleep(self.delay_in_seconds)
-        return books.get(book_id, None)
+        return _books.get(book_id, None)
 
+
+def get_authors_with_books():
+    data_provider = DataProvider(0)
+    authors = data_provider.get_authors()
+    for author in authors:
+        author.top_books = data_provider.get_books_by_id(author.top_book_ids)
+    return authors
