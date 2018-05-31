@@ -1,0 +1,6 @@
+C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor.PerformaceTests\bin\Debug\WebTest1.webtest
+C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor.PerformaceTests\bin\Debug\Mvc4.Razor.PerformaceTests.dll
+C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor.PerformaceTests\bin\Debug\Mvc4.Razor.PerformaceTests.pdb
+C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor.PerformaceTests\obj\Debug\Mvc4.Razor.PerformaceTests.csprojResolveAssemblyReference.cache
+C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor.PerformaceTests\obj\Debug\Mvc4.Razor.PerformaceTests.dll
+C:\GoWorkspace\src\github.com\strongo\benchmarks\aspnet\Strongo.Benchmarks\Mvc4.Razor.PerformaceTests\obj\Debug\Mvc4.Razor.PerformaceTests.pdb
