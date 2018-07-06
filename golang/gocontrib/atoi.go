@@ -21,9 +21,9 @@ func AtoiImproved(s string) (int, error) {
 				if ch > 9 {
 					return 0, &strconv.NumError{fnAtoi, s, strconv.ErrSyntax}
 				}
-				n = n*10 - int(ch)
+				n = n*10 + int(ch)
 			}
-			return n, nil
+			return -n, nil
 		case '+':
 			if sLen == 1 {
 				return 0, &strconv.NumError{fnAtoi, s, strconv.ErrSyntax}
